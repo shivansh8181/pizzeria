@@ -12,9 +12,9 @@ const Menu = () => {
       </h1>
 
       <div className=" flex flex-wrap gap-8 justify-center">
-        <DishesCard img={menu1} title="Truffle Supreme 🍄" price="$16.99" />
-        <DishesCard img={menu2} title="Inferno Royale 🌶️" price="$18.99" />
-        <DishesCard img={menu3} title="Mediterranean Bliss 🍅" price="$14.99" />
+        <DishesCard img={menu1} title="Truffle Supreme 🍄" price="Rs 599" />
+        <DishesCard img={menu2} title="Inferno Royale 🌶️" price="Rs 549" />
+        <DishesCard img={menu3} title="Mediterranean Bliss 🍅" price="Rs 529" />
       </div>
     </div>
   );
