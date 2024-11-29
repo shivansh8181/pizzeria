@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Madimi+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Madimi One",sans-serif;
+}
+@font-face {
+  font-family: 'Love';
+  src: url('./fonts/Love.otf') format('opentype'); /* Adjust the path if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.white-bg-button {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
+/* styles.css */
+@layer components {
+  .custom-link {
+    @apply hover:text-brightColor transition-all cursor-pointer text-sm;
+  }
+}
+
