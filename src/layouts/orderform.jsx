@@ -24,55 +24,55 @@ const OrderForm = ({ onClose }) => {
     {
       id: 1,
       name: "Margherita Magic 🍅🧀",
-      price: 10.99,
+      price: 299,
       image: D1,
     },
     {
       id: 2,
       name: "Smoky BBQ Feast 🔥🍖",
-      price: 12.99,
+      price: 399,
       image: D2,
     },
     {
       id: 3,
       name: "Tuscany Treat 🍕🌿",
-      price: 10.99,
+      price: 349,
       image: D3,
     },
     {
       id: 4,
       name: "Veggie Supreme",
-      price: 11.99,
+      price: 429,
       image: D4,
     },
     {
       id: 5,
       name: "Classic Caprese 🥬🍅",
-      price: 10.99,
+      price: 249,
       image: D5,
     },
     {
       id: 6,
       name: "Truffle Temptation 🍄✨",
-      price: 12.99,
+      price: 299,
       image: D6,
     },
     {
       id: 7,
       name: "Truffle Supreme 🍄",
-      price: 16.99,
+      price: 599,
       image: PM4,
     },
     {
       id: 8,
       name: "Inferno Royale 🌶️",
-      price: 18.99,
+      price: 549,
       image: PM2,
     },
     {
       id: 9,
       name: "Mediterranean Bliss 🍅",
-      price: 14.99,
+      price: 529,
       image: PM3,
     },
   ];
@@ -175,7 +175,7 @@ const OrderForm = ({ onClose }) => {
                 />
                 <div>
                   <h3 className="text-lg font-semibold">{pizza.name}</h3>
-                  <p className="text-gray-600">${pizza.price}</p>
+                  <p className="text-gray-600">Rs{pizza.price}</p>
                 </div>
               </div>
             ))}
